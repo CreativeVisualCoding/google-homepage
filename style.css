@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    
+    float: left;
+    width:16%;
+}
+
+.container{
+
+    display: grid;
+    align-content: center;
+    
+    
+}
+
+#img-google{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
